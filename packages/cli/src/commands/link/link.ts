@@ -18,7 +18,7 @@ import linkAll from './linkAll';
 import makeHook from './makeHook';
 
 type FlagsType = {
-  platforms?: Array<string>;
+  platforms: Array<string>;
   all?: boolean;
 };
 
