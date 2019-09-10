@@ -106,6 +106,8 @@ export interface Config {
       hooks: {
         prelink?: string;
         postlink?: string;
+        preulink?: string;
+        postunlink?: string;
       };
       params: InquirerPrompt[];
     };
